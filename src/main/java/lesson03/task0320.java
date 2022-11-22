@@ -12,7 +12,7 @@ package lesson03;
 2
 
 Requirements:
-1. Программа не должна считывать данные с клавиатуры.
+1. Программа не должна cчитывать данные с клавиатуры.
 2. Метод getMetreFromCentimetre(int) должен быть публичным и статическим.
 3. Метод getMetreFromCentimetre должен возвращать значение типа int.
 4. Метод getMetreFromCentimetre не должен ничего выводить на экран.
