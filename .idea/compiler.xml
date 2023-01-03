@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="JavaRushRepeat" target="1.15" />
+      <module name="JavaRushRepeat" target="15.0.1" />
     </bytecodeTargetLevel>
   </component>
 </project>
