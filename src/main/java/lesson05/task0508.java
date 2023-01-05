@@ -24,6 +24,7 @@ public class task0508 {
     // напишите тут ваш код
     private String name = null;
     public void initialize (String name) {
+
         this.name = name;
     }
     private int height = 0;
