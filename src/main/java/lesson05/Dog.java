@@ -2,10 +2,10 @@ package lesson05;
 
 /**
  * Геттеры и сеттеры для класса Dog_(1)
- *
+ * <p>
  * Создать class Dog. У собаки должна быть кличка String name и возраст int age.
  * Создай геттеры и сеттеры для всех переменных класса Dog.
- *
+ * <p>
  * Требования:
  * •	Программа не должна считывать данные с клавиатуры.
  * •	У класса Dog должна быть переменная name с типом String.
@@ -25,7 +25,7 @@ public class Dog {
         return name;
     }
 
-    public void setName (String name) {
+    public void setName(String name) {
         this.name = name;
     }
 
@@ -33,7 +33,7 @@ public class Dog {
         return age;
     }
 
-    public void setAge (int age) {
+    public void setAge(int age) {
         this.age = age;
     }
 
