@@ -40,5 +40,6 @@ public class task0526 {
             if (s.equals("сумма"))
                 break;
         }
+        System.out.println();
     }
 }
