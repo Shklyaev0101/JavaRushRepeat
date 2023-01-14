@@ -21,9 +21,11 @@ public class task0604 { //Cat
 
     //напишите тут ваш код
 
-    public Cat(){
+    /*
+    public //Cat(){
         catCount++;
     }
+     */
 
     protected void finalize() throws Throwable {
         catCount--;
