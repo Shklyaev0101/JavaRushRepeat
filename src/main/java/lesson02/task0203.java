@@ -20,7 +20,7 @@ Requirements:
  */
 
 public class task0203 {
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         Man man = new Man();
         Woman woman = new Woman();
         man.wife = woman;
@@ -37,5 +37,5 @@ public class task0203 {
         public int age;
         public int height;
         public Man husband;
-    }
+    } */
 }
