@@ -16,7 +16,7 @@ package lesson11;
  *      в зависимости от переданного объекта. Например "Лампа" для объектов типа Solution.Lamp.
  */
 
-public class Task1127 {
+public class Task1204 {
     public static void main(String[] args) {
         printObjectType(new Cat());
         printObjectType(new Bird());
@@ -27,13 +27,18 @@ public class Task1127 {
 
     public static void printObjectType(Object o) {
         //Напишите тут ваше решение
-        Cat cat = new Cat();
-        Bird bird = new Bird();
-        Lamp lamp = new Lamp();
-        Cat cat1 = new Cat();
-        Dog dog = new Dog();
-        System.out.println();
-
+        if(o.getClass() .equals(Cat.class)) {
+            System.out.println("Кошка");
+        }
+        else if (o.getClass().equals(Bird.class)) {
+            System.out.println("Птица");
+        }
+        else if (o.getClass().equals(Lamp.class)) {
+            System.out.println("Лампа");
+        }
+        else if (o.getClass().equals(Dog.class)) {
+            System.out.println("Собака");
+        }
     }
 
     public static class Cat {

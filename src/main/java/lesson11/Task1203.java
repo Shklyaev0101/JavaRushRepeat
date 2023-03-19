@@ -14,7 +14,7 @@ package lesson11;
  * •	Метод main() должен вызывать метод getChild() у объекта типа Dog.
  */
 
-public class Task1126 {
+public class Task1203 {
     public static void main(String[] args) {
         Pet pet1 = new Cat();
         Pet cat = pet1.getChild();
