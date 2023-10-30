@@ -26,12 +26,17 @@ import java.io.InputStreamReader;
 public class task0441 {
     public static void main(String[] args) throws Exception {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        int a = Integer.parseInt(reader.readLine());
-        int b = Integer.parseInt(reader.readLine());
-        int c = Integer.parseInt(reader.readLine());
-        int d = Integer.parseInt(reader.readLine());
-        int e = Integer.parseInt(reader.readLine());
 
+        int sum = 0;
+        while (true) {      //позволяет бесконечно вводить числа
+            int number = Integer.parseInt(reader.readLine());
+            if (number == -1) {
+                System.out.println(sum = sum + number);
+                break;
 
+        } else {
+                sum = sum + number;
+            }
+        }
     }
 }

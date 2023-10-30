@@ -36,16 +36,34 @@ import java.io.InputStreamReader;
 public class task0426 {
     public static void main(String[] args) throws Exception {
         //напишите тут ваш код
-        /* BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         String sNumber = reader.readLine();
-        for (int i = 0; i < sNumber.length(); i++){
-            char n = sNumber.charAt(i);
-        }
-        int number = Integer.parseInt(sNumber);
+        int iNumber = Integer.parseInt(sNumber);
 
-        if (((number % 2) == 0) && n) {
+        if (iNumber >= 1 && iNumber <= 999) {
+            if ((iNumber % 2) == 0 && iNumber <= 9) {
+                System.out.println("четное однозначное число");
+            } else {
+                if ((iNumber % 1) == 0 && iNumber <= 9) {
+                    System.out.println("нечетное однозначное число");
+                }
+            }
 
+            if ((iNumber % 2) == 0 && iNumber >= 10 && iNumber <= 99) {
+                System.out.println("четное двузначное число");
+            } else {
+                if ((iNumber % 1) == 0 && iNumber >= 10 && iNumber <= 99) {
+                    System.out.println("нечетное двузначное число");
+                }
+            }
+
+            if ((iNumber % 2) == 0 && iNumber >= 100 && iNumber <= 999) {
+                System.out.println("четное трехзначное число");
+            } else {
+                if ((iNumber % 1) == 0 && iNumber >= 100 && iNumber <= 999) {
+                    System.out.println("нечетное трехзначное число");
+                }
+            }
         }
-         */
     }
 }

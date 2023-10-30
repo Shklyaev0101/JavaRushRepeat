@@ -34,12 +34,17 @@ public class task0526 {
     public static void main(String[] args) throws Exception {
         //напишите тут ваш код
         BufferedReader buffer = new BufferedReader(new InputStreamReader(System.in));
-        while (true)
-        {
+
+        int sum = 0;
+        while (true) {
             String s = buffer.readLine();
-            if (s.equals("сумма"))
+            if (s.equals ("сумма")) {
                 break;
+            } else {
+                int i = Integer.parseInt(s);
+                sum = sum + i;
+            }
         }
-        System.out.println();
+        System.out.println(sum);
     }
 }
